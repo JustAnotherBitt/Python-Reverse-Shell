@@ -38,7 +38,14 @@ This will create an executable file without a console window.
 Run the generated executable on the victim machine. The shell will attempt to connect to your Kali machine on the specified IP and port.
 
 ### 5. Command Execution:
-Once connected, you can issue commands such as ls, dir, cd, and any other system commands. The result will be sent back to your terminal.
+Once connected, you will see something like that:
+
+```
+listening on [any] 443 ...
+connect to [192.x.x.x] from (UNKNOWN) [192.x.x.x] 30908
+Welcome to your victim's machine!
+─$ 
+```
 
 To exit the shell, simply type `/exit`.
 
