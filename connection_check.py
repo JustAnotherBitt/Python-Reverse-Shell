@@ -1,6 +1,6 @@
 import socket
 
-IP = "192.x.x.x"  # Your Kali IP
+IP = "192.x.x.x"  # Your Linux IP
 PORT = 443
 
 try:
